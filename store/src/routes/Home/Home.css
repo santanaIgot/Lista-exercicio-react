@@ -1,0 +1,32 @@
+/* ------------------------banner-------------------- */
+
+.image img{
+  width: 100%;
+}
+
+.image-container{
+  position: relative;
+}
+
+h1{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: #fff;
+  font-weight: 900;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.btn{
+  position: absolute; /* Posiciona o botão de forma absoluta */
+  margin-top: 450px; /* Coloca o botão no topo do container pai (image-container) */
+  left: 10%; /* Move o botão 50% para a direita a partir da esquerda do container pai */
+  transform: translateX(-50%); /* Centraliza horizontalmente o botão */
+  background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para tornar o botão visível */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno para o botão */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; 
+  border-radius: 10px;
+}
